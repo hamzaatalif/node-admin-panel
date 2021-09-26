@@ -1,0 +1,25 @@
+{
+  "name": "admin-panel",
+  "version": "1.0.0",
+  "description": "It is a web based admin panel for an android app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzaatalif/node-admin-panel.git"
+  },
+  "keywords": [
+    "nodejs",
+    "sqllite",
+    "android",
+    "adminpanel"
+  ],
+  "author": "Hamza Imranist (https://imranist.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzaatalif/node-admin-panel/issues"
+  },
+  "homepage": "https://github.com/hamzaatalif/node-admin-panel#readme"
+}
