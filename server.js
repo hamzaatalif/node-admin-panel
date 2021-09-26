@@ -10,13 +10,13 @@ const PORT = process.env.PORT || 5000;
 // middlewares
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static("./public"))
-app.use("/",loginRouter);
+app.use("/", loginRouter);
 
 
 
 const run = async () => {
     try {
-        app.listen(PORT,console.log(`Server is listening on port: ${PORT}...`))
+        app.listen(PORT, console.log(`Server is listening on port: ${PORT}...`))
     } catch (error) {
         console.error(error)
     }
